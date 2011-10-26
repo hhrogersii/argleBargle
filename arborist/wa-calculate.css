@@ -1,0 +1,320 @@
+/* General styles -- including yahoo reset.css in order to standardize display */
+body,div,dl,dt,dd,ul,ol,li,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+a:link, a:visited {
+  text-decoration:none;
+  color:#FE6518;
+}
+a:hover {
+  color:#DB0303 !important;
+}
+
+html{
+  overflow-y: scroll; 
+  }
+	
+body {
+	background:#FFF url(/images/bgGradient.png) fixed repeat-x left bottom; 
+	margin:0 auto; 
+	padding:0; 
+	border:0;
+	text-align: center;
+	/* overflow: -moz-scrollbars-vertical;   Firefox specific, fixes bug #78566 */
+        min-height: 100%;
+}
+
+p, body {
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color: #000;
+	font-size: 10px;
+	line-height: 14px;
+}
+
+/* force no resize, CSS3 property supported by latest WebKit browsers */
+textarea {resize:none;}
+
+
+li {
+	background: url(/images/bullet.gif) no-repeat 0 .38em; 
+	padding-left: 1.5em;
+	margin: .65em 0; 
+}
+	
+
+/* Custom Global Classes */
+
+.gray, a.gray {
+	color: #999;
+}
+
+.orangeText {
+	color:#FE6518;
+	font: 10px/14px Verdana, Arial, Helvetica, sans-serif; 
+}
+
+a.orangeText:hover {
+        color: #DB0303;
+}
+
+
+.righthandlink, .right, .note {
+  font: 10px/14px Verdana, Arial, Helvetica, sans-serif;
+  padding-right: 8px;
+  text-align: right;
+}
+
+
+.pod .note img {
+  display: inline;
+  vertical-align: middle;
+}
+
+.note a:hover, right:hover, .right a:hover {
+  color:#DB0303;
+  font-size: 10px;
+}
+
+.annotpod {
+  text-align: right;
+}
+
+div.right {
+  display: inline;
+}
+
+div.right + div.right {
+   padding:  0 7px 0 7px;
+   background-position: 0% 50%;
+   background-repeat: no-repeat;
+   background-image: url(/images/bulletSprite.png);
+}
+
+.note em {
+  color: #FE6518;
+}
+
+.note > span, .note:hover > em{
+  display: none;
+}
+.note:hover > span, .note em{
+  display: inline;
+}
+
+div.righthandlink > img {
+  display: inline;
+}
+
+/* consolidating styles for transition to sprite images */
+.top, .bot {
+  display: block;
+  position: absolute;
+  left: 0px;
+  height: 15px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  float: top;
+}
+
+.bot {
+  top: auto;
+}
+
+
+/* IDs for main page styles */
+#content {
+	border:0;
+	margin: 0 auto;
+	width: 635px;
+	text-align: left;
+  z-index: 10;
+  position: relative;
+}
+
+#results, #examples {
+  background: #fff url(/images/hSprite.png) repeat-y -1155px 0px;
+  margin: 28px 0;
+  padding: 5px 0;
+  text-align: left;
+  position: relative; 
+  width: 574px;
+}
+
+#results > .top, #results > .bot, #examples > .top, #examples > .bot {
+  width: 574px; 
+  height: 15px;
+  background-position: -1px -70px;
+}
+
+#results > .top, #examples > .top{
+  top: -15px;
+}
+
+#results > .bot, #examples > .bot{
+  bottom: -15px; 
+  top: auto;
+  background-position: -1px -86px;
+}
+
+#results > .bot{
+  bottom: -14px;
+  height: 14px;
+ top: auto;
+  background-position: -1px -86px;
+}
+
+
+#results > .pod ~ b.bot {
+  bottom: -37px;
+  height: 37px;
+  top: auto;
+  background-position: -2px -369px;
+}
+
+.pod + #recalculate + #computed + .bot,
+.pod + #computed + .bot {
+  position:relative;
+  bottom: -6px;
+  height: 37px;
+ top: auto;
+  background-position: -2px -367px;
+}
+
+
+
+
+#error {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #1e1e1e;
+  margin-right: 50px;
+}
+	
+#error h2 { 
+  font-weight: bold; 
+  margin: .83em 0;
+}
+
+
+
+/*#noscript {
+  position: relative;
+  background:url(/images/hSprite.png) repeat-y -2279px 0;
+  width: 544px;
+  border: 0;
+  color: #333;
+  font: 10px/21px Verdana, Arial, Helvetica, sans-serif;
+  padding: 5px 0px 5px 30px;
+  margin: 30px 0 50px;
+}
+
+#noscript p {
+  font:  bold 10px Verdana, sans-serif;
+  color: #333;
+}
+
+#noscript hr.top {
+  background-position: 0 -178px;
+  width: 574px;
+  top: -15px;
+}
+
+
+#noscript hr.bot {
+  background-position: 0 -194px;
+  width: 574px;
+  bottom: -15px;
+}*/
+
+iframe {
+  position: absolute;
+  left: -5000px; 
+  /*visibility: hidden;*/
+}
+
+
+#iphoneOverlay {
+	background-color: #444444;
+	height: 100%;
+	left: 0;
+	opacity: 0.7;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10001;
+}
+#iphoneAppAdContainer {
+	background: url(/images/iphoneappad.png) no-repeat 0 0;
+	height: 362px;
+	/*left: 50%;*/
+	left: 0;
+	/*margin-left: -282px;*/
+	position: absolute;
+	/*top: 50px;*/
+	top: 0;
+	width: 564px;
+	z-index: 10002;
+}
+#closeIphoneAd {
+	height: 56px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 58px;
+}
+#downloadIphoneApp {
+	height: 50px;
+	position: absolute;
+	left: 9px;
+	bottom: 17px;
+	width: 527px;
+}
+
+.first.btn {
+	display: none;
+}
+.pod {
+	margin-bottom: 16px;
+}
+.warning {
+	color: #ff636d;
+	border: 1px dotted #ff636d;
+	margin-bottom: 12px;
+	display: inline-block;
+    padding: 4px;
+}
+h1 {
+	font-size: 16px;
+	margin-bottom: 12px
+}

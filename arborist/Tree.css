@@ -1,0 +1,49 @@
+/*JavaScript Arborist - hhrogersii.com*/
+/*tree view definition lists*/
+.tree {
+	display: block;
+	padding: 0px 3px 2px 5px;
+}
+.tree dl {
+	display: none;
+	margin-left: 6px;
+	padding: 0;
+	font: 12px/8px Verdana, Arial, Helvetica, sans-serif;
+	color: #036;
+}
+.tree dd {
+	display: block;
+	margin: 0;
+	padding: 4px 4px 2px 16px;
+	white-space: nowrap;
+	font: 12px/12px Verdana, Arial, Helvetica, sans-serif;
+	color: #036;
+	cursor: auto;
+	background: transparent url(nullm.gif) no-repeat left 6px;
+}
+.tree dd.node {
+	cursor: pointer;
+	background: transparent url(plusm.gif) no-repeat left 6px;
+}
+
+#tree{ 
+	float: left;
+	margin-bottom: 12px;
+}
+#menu{ 
+	margin-bottom: 8px; 
+}
+.menu{ 
+	text-decoration: underline; 
+	cursor: pointer; 
+	padding: 4px;
+}
+.menu: hover{ 
+	background-color: #fff7d1 }
+
+#wa{ 
+	float: right;
+	border: 1px solid #ccbbca;
+	display: none;
+	background: url('/img/63.gif') no-repeat scroll center 100px transparent; 
+}
