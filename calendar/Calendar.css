@@ -1,0 +1,79 @@
+/*Pop-up Calendar - hhrogersii.com*/
+body.calendar { 
+	margin: 0; 
+	background-color: #FFF; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+}
+table#miniCal {
+	width: 172px; 
+	height: 172px;
+	background-color: #FFF; 
+}
+
+
+td {
+	vertical-align:middle; 
+	padding: 0; 
+	cursor: pointer; 
+	width:18px; height: 18px;
+	color: #000;
+	font-weight: bold; 
+}
+td.hover {
+	background-color: #FFC; 
+	color: #2F4F88; 
+}
+
+
+td.titleCell { 
+	background-color: #8A9DBD; 
+	font-size: 11px;
+}
+td.titleCell.hover { 
+	background-color: #6781AB; 
+	color: #FFF;
+}
+td.titleCell img {
+	margin-top: 2px;
+}
+
+
+.goCell {
+	background-color: #6781AB; 
+	color: #FFF; 
+}
+.goCell.hover {
+	background-color: #A6B5CD; 
+	color: #000; 
+}
+
+
+.navCell {
+	background-color: #A6B5CD; 
+	color: #FFF; 
+}
+.navCellSel {
+	background-color: #FFC; 
+	color: #2F4F88;
+}
+
+
+tr.week td { 
+	background-color: #AAA; 
+}
+.weekEnd, .noDay { 
+	background-color: #EEE; 
+	font-weight: normal;
+}
+.weekDay { 
+	background-color: #D0D0D0; 
+	font-weight: normal;
+}
+.toDay {
+	background-color: #8A9DBD; 
+}
+.selDay {
+	background-color: #FFC; 
+	color: #2F4F88; 
+}
