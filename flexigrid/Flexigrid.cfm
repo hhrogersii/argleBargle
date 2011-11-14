@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>&gt;arg!eBarg!e: Flexigrid Enhancement</title>
+	<meta name="description" content="&hellip;improvements to the Flexigrid table tool." />
+	<meta name="author" content="Henry Harper Rogers II" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+	<link rel="stylesheet" type="text/css" href="Flexigrid.css" />
+</head>
+
+<body lang="en">
+
+	<div id="header-container" class="wrapper lab">
+    	<header>
+			<h1>&gt;arg!eBarg!e:</h1>
+			<span>&hellip;such as an argument, often a worthless, but energetic, conversation or comment.</span>
+		</header>
+	</div>
+
+	<div id="main" class="wrapper lab" role="main">
+    <article>
+
+        <header>
+        	<h2>Flexigrid Enhancement</h2>
+        	<p>&hellip;improvements to the Flexigrid table tool.</p>
+        </header>
+
+		<section>
+			<div class="section" style="position:relative">
+
+				<h3>Painters</h3>
+
+<table class="flex-painters">
+<tr id="row_1"><td>1</td><td>English School</td><td>William Hogarth</td><td>1697-1764</td><td>English painter, engraver, founder of English School of figurative painting.</td></tr>
+<tr id="row_2"><td>2</td><td>English School</td><td>Richard Wilson</td><td>1714-82</td><td>Founder of modern English School of landscape painting.</td></tr>
+<tr id="row_3"><td>3</td><td>English School</td><td>Joshua Reynolds</td><td>1723-92</td><td>Eminent portraitist, President of London Royal Academy.</td></tr>
+<tr id="row_4"><td>4</td><td>English School</td><td>George Stubbs</td><td>1724-1806</td><td>Equestrian artist, horse painter, animalier.</td></tr>
+<tr id="row_5"><td>5</td><td>English School</td><td>Thomas Gainsborough</td><td>1727-88</td><td>Portrait artist, landscapes.</td></tr>
+<tr id="row_6"><td>6</td><td>English School</td><td>Joseph Wright of Derby</td><td>1734-1797</td><td>Midlands portrait painter, noted for his chiaroscuro & candlight scenes.</td></tr>
+<tr id="row_7"><td>7</td><td>English School</td><td>Henry Fuseli</td><td>1741-1825</td><td>Romantic expressionist artist, symbolist painter.</td></tr>
+<tr id="row_8"><td>8</td><td>English School</td><td>Henry Raeburn</td><td>1756-1823</td><td>Scottish portrait artist, active in Edinburgh, famous for The Skating Minister.</td></tr>
+<tr id="row_9"><td>9</td><td>English School</td><td>William Blake</td><td>1757-1827</td><td>The outstanding English engraver, etcher, watercolourist and illustrator.</td></tr>
+<tr id="row_10"><td>10</td><td>English School</td><td>John Crome</td><td>1768-1821</td><td>Norfolk landscape artist, President of Norwich School; influenced by Hobbema.</td></tr>
+<tr id="row_11"><td>11</td><td>English School</td><td>Thomas Lawrence</td><td>1769-1830</td><td>Regency society portraitist, painter to King George III; President RA London.</td></tr>
+<tr id="row_12"><td>12</td><td>English School</td><td>Thomas Girtin</td><td>1775-1802</td><td>England's first major watercolourist.</td></tr>
+<tr id="row_13"><td>13</td><td>English School</td><td>JMW Turner</td><td>1775-1851</td><td>The greatest English watercolourist and landscape painter.</td></tr>
+<tr id="row_14"><td>14</td><td>English School</td><td>John Constable</td><td>1776-1837</td><td>England's greatest naturalist landscape artist. Noted for &quote;The Hay Wain.&quote;</td></tr>
+<tr id="row_15"><td>15</td><td>English School</td><td>John Sell Cotman</td><td>1782-1842</td><td>Watercolourist of the Norwich School of landscape painters.</td></tr>
+<tr id="row_16"><td>16</td><td>English School</td><td>John Martin</td><td>1789-1854</td><td>History painter of Biblical scenes; exponent of Romanticism; printmaker.</td></tr>
+<tr id="row_17"><td>17</td><td>English School</td><td>Alfred Stevens</td><td>1817-75</td><td>Outstanding Victorian painter and sculptor.</td></tr>
+<tr id="row_18"><td>18</td><td>English School</td><td>George Frederick Watts</td><td>1817-1904</td><td>The most revered English artist portraitist, sculptor) of the late 19th century.</td></tr>
+<tr id="row_19"><td>19</td><td>English School</td><td>Frederic Leighton</td><td>1830-1896</td><td>Victorian neoclassicist, noted for Greek subject paintings, and portraiture.</td></tr>
+<tr id="row_20"><td>20</td><td>English School</td><td>William Morris</td><td>1834-96</td><td>Painter, designer, decorative artist; leader of Arts & Crafts Movement.</td></tr>
+<tr id="row_21"><td>21</td><td>English School</td><td>Sir Lawrence Alma-Tadema</td><td>1836-1912</td><td>Classical subject painter, noted for female nudes such as The Tepidarium.</td></tr>
+<tr id="row_22"><td>22</td><td>American School</td><td>Benjamin West</td><td>1738-1820</td><td>Innovative history painter, portraitist, &quote;Father of American Painting.&quote;</td></tr>
+<tr id="row_23"><td>23</td><td>American School</td><td>John Singleton Copley</td><td>1738-1815</td><td>American portraitist, history painter - Boston and London.</td></tr>
+<tr id="row_24"><td>24</td><td>American School</td><td>Gilbert Stuart</td><td>1755-1828</td><td>Greatest American portrait painter of late-18th/ early-19th century.</td></tr>
+<tr id="row_25"><td>25</td><td>American School</td><td>Thomas Cole</td><td>1801-48</td><td>Founder of Hudson River school of American wilderness landscape painting.</td></tr>
+<tr id="row_26"><td>26</td><td>American School</td><td>George Caleb Bingham</td><td>1811-1879</td><td>Missouri genre-painter, frontier luminist landscape artist, portraitist.</td></tr>
+<tr id="row_27"><td>27</td><td>American School</td><td>Emanuel Gottlieb Leutze</td><td>1816-68</td><td>Best known for his history painting Washington Crossing the Delaware.</td></tr>
+<tr id="row_28"><td>28</td><td>American School</td><td>George Inness</td><td>1825-1894</td><td>Brilliant Impressionistic painter, who defined Tonalism.</td></tr>
+<tr id="row_29"><td>29</td><td>American School</td><td>Frederic Edwin Church</td><td>1826-1900</td><td>Pupil of Cole, and America's greatest ever landscape painter.</td></tr>
+<tr id="row_30"><td>30</td><td>American School</td><td>Albert Bierstadt</td><td>1830-1902</td><td>German-born landscape artist of Hudson River School, Luminism style.</td></tr>
+<tr id="row_31"><td>31</td><td>American School</td><td>Winslow Homer</td><td>1836-1910</td><td>American pioneer-style seascapes, Civil War paintings, scenic views.</td></tr>
+<tr id="row_32"><td>32</td><td>American School</td><td>Thomas Eakins</td><td>1844-1916</td><td>Greatest American exponent of figurative realism. Noted for The Gross Clinic.</td></tr>
+<tr id="row_33"><td>33</td><td>American School</td><td>John Singer Sargent</td><td>1856-1925</td><td>Portrait artist in the grand manner, noted for society portraits.</td></tr>
+<tr id="row_34"><td>34</td><td>American School</td><td>Frederic Remington</td><td>1861-1909</td><td>Painter, illustrator & sculptor of American cowboy 'Wild West'.</td></tr>
+<tr id="row_35"><td>35</td><td>Romantics</td><td>Caspar David Friedrich</td><td>1774-1840</td><td>German symbolist landscape painter.</td></tr>
+<tr id="row_36"><td>36</td><td>Romantics</td><td>Theodore Gericault</td><td>1791-1824</td><td>Known for his masterpiece &quote;The Raft of the Medusa.&quote;</td></tr>
+<tr id="row_37"><td>37</td><td>Romantics</td><td>Paul Delaroche</td><td>1797-1856</td><td>Romantic French history painter; ranked with Gericault and Delacroix.</td></tr>
+<tr id="row_38"><td>38</td><td>Romantics</td><td>Eugene Delacroix</td><td>1798-63</td><td>Leader of French Romantic art movement and 19th century Romantic Artists.</td></tr>
+<tr id="row_39"><td>39</td><td>Pre-Raphaelite Brotherhood</td><td>William Holman Hunt</td><td>1827-1910</td><td>Co-founder of PRB. Famous paintings include The Lady of Shalott.</td></tr>
+<tr id="row_40"><td>40</td><td>Pre-Raphaelite Brotherhood</td><td>Dante Gabriel Rossetti</td><td>1828-82</td><td>Co-founder, noted for The Annunciation and other romantic works.</td></tr>
+<tr id="row_41"><td>41</td><td>Pre-Raphaelite Brotherhood</td><td>John Everett Millais</td><td>1829-96</td><td>Traditional portraitist, best-known for his romantic painting Ophelia.</td></tr>
+<tr id="row_42"><td>42</td><td>Pre-Raphaelite Brotherhood</td><td>Edward Burne-Jones</td><td>1833-1898</td><td>Painter, stained glass/tapestry designer for William Morris & Co.</td></tr>
+<tr id="row_43"><td>43</td><td>Pre-Raphaelite Brotherhood</td><td>John William Waterhouse</td><td>1849-1917</td><td>English Romantic painter of historical/literary works, like The Lady of Shalott.</td></tr>
+<tr id="row_44"><td>44</td><td>19th-Century Realists</td><td>Jean-Baptiste-Camille Corot</td><td>1796-1875</td><td>Romantic/Realist French landscape painter.</td></tr>
+<tr id="row_45"><td>45</td><td>19th-Century Realists</td><td>Honore Daumier</td><td>1808-79</td><td>Renowned French Caricaturist, graphic artist and realist painter.</td></tr>
+<tr id="row_46"><td>46</td><td>19th-Century Realists</td><td>Jean-Francois Millet</td><td>1814-75</td><td>Realist painter, founder of French Barbizon School of landscape painting.</td></tr>
+<tr id="row_47"><td>47</td><td>19th-Century Realists</td><td>Gustave Courbet</td><td>1819-77</td><td>Founder of French Realism art movement, leader of Realist Artists.</td></tr>
+<tr id="row_48"><td>48</td><td>Symbolists</td><td>Gustave Moreau</td><td>1826-1898</td><td>Noted for his history painting. Huge influence on Andre Breton & Surrealism.</td></tr>
+<tr id="row_49"><td>49</td><td>Symbolists</td><td>Odilon Redon</td><td>1840-1916</td><td>Painter, printmaker, noted for The Cyclops; anticipated Surrealism.</td></tr>
+<tr id="row_50"><td>50</td><td>Symbolists</td><td>Ferdinand Hodler</td><td>1853-1918</td><td>With Arnold Bocklin, one of the founders of modern art in Switzerland.</td></tr>
+<tr id="row_51"><td>51</td><td>Symbolists</td><td>James Ensor</td><td>1860-1949</td><td>Belgian exponent of Symbolism, famous for Christ's Entry Into Brussels.</td></tr>
+<tr id="row_52"><td>52</td><td>Impressionists</td><td>Eugene Boudin</td><td>1824-98</td><td>Influential forerunner of Impressionism; taught Monet plein air painting.</td></tr>
+<tr id="row_53"><td>53</td><td>Impressionists</td><td>Edouard Manet</td><td>1832-83</td><td>Father of modern painting in France; one of the first great modern artists.</td></tr>
+<tr id="row_54"><td>54</td><td>Impressionists</td><td>Claude Monet</td><td>1840-1926</td><td>Founder of Impressionistic plein-air painting.</td></tr>
+<tr id="row_55"><td>55</td><td>Impressionists</td><td>Camille Pissarro</td><td>1830-1903</td><td>Outstanding cityscape and landscape painter.</td></tr>
+<tr id="row_56"><td>56</td><td>Impressionists</td><td>Pierre-Auguste Renoir</td><td>1841-1919</td><td>Finest exponent of 'dappled light' in Impressionist movement.</td></tr>
+<tr id="row_57"><td>57</td><td>Impressionists</td><td>Alfred Sisley</td><td>1839-1899</td><td>Like Monet, a pure Impressionist specializing in landscapes.</td></tr>
+<tr id="row_58"><td>58</td><td>Impressionists</td><td>Edgar Degas</td><td>1834-1917</td><td>The greatest figure painter of French Impressionism.</td></tr>
+<tr id="row_59"><td>59</td><td>Impressionists</td><td>Berthe Morisot</td><td>1841-95</td><td>Leading female Impressionist; sister-in-law of Manet.</td></tr>
+<tr id="row_60"><td>60</td><td>Impressionists</td><td>Gustave Caillebotte</td><td>1848-94</td><td>Rich Impressionist, best known for Paris: A Rainy Day and his art collection.</td></tr>
+<tr id="row_61"><td>61</td><td>Impressionists</td><td>Mary Cassatt</td><td>1845-1926</td><td>American Impressionist artist, noted for 'mother and child' paintings.</td></tr>
+<tr id="row_62"><td>62</td><td>Impressionists</td><td>Anders Zorn</td><td>1860-1920</td><td>Famous Impressionist portrait painter from Sweden, best known for his nudes.</td></tr>
+<tr id="row_63"><td>63</td><td>Post-Impressionists</td><td>James Abbott McNeill Whistler</td><td>1834-1903</td><td>Member of the Aesthetic Movement: noted for his &quote;Nocturnes&quote; and etchings.</td></tr>
+<tr id="row_64"><td>64</td><td>Post-Impressionists</td><td>Paul Cezanne</td><td>1839-1906</td><td>Arguably the greatest of all Post-Impressionist painters, precursor of Cubism.</td></tr>
+<tr id="row_65"><td>65</td><td>Post-Impressionists</td><td>Paul Gauguin</td><td>1848-1903</td><td>Outstanding colourist, influenced Synthetism, Cloisonism and Primitivism.</td></tr>
+<tr id="row_66"><td>66</td><td>Post-Impressionists</td><td>Vincent Van Gogh</td><td>1853-1890</td><td>Founder of modern Expressionism.</td></tr>
+<tr id="row_67"><td>67</td><td>Post-Impressionists</td><td>Georges Seurat</td><td>1859-1891</td><td>Founder of Neo-Impressionist art: colour theories of Pointillism & Divisionism.</td></tr>
+<tr id="row_68"><td>68</td><td>Post-Impressionists</td><td>Walter Sickert</td><td>1860-1942</td><td>Greatest British Post-Impressionist painter. Founded Camden Town Group.</td></tr>
+<tr id="row_69"><td>69</td><td>Post-Impressionists</td><td>Paul Signac</td><td>1863-1935</td><td>Leader of Neo-Impressionism after Seurat; developed Chromoluminarism.</td></tr>
+<tr id="row_70"><td>70</td><td>Post-Impressionists</td><td>Henri de Toulouse-Lautrec</td><td>1864-1901</td><td>Genre painter, printmaker, draftsman and illustrator.</td></tr>
+<tr id="row_71"><td>71</td><td>Post-Impressionists</td><td>Paul Serusier</td><td>1864-1927</td><td>Gauguin follower, founder of Nabis, noted for The Talisman & his religious art.</td></tr>
+<tr id="row_72"><td>72</td><td>Post-Impressionists</td><td>Pierre Bonnard</td><td>1867-1947</td><td>Post-Impressionist painter, famous for his colourism and intimate interiors.</td></tr>
+<tr id="row_73"><td>73</td><td>Post-Impressionists</td><td>Edouard Vuillard</td><td>1868-1940</td><td>Co-founder of Intimism: noted for genre-paintings of intimate interiors.</td></tr>
+<tr id="row_74"><td>74</td><td>Post-Impressionists</td><td>P.S. Kroyer</td><td>1851-1909</td><td>Norwegian-born post-Impressionist landscape painter.</td></tr>
+<tr id="row_75"><td>75</td><td>Post-Impressionists</td><td>Vilhelm Hammershoi</td><td>1864-1916</td><td>Danish Intimist genre-painter of muted interiors in blues and greys.</td></tr>
+<tr id="row_76"><td>76</td><td>Post-Impressionists</td><td>Maurice Utrillo</td><td>1883-1955</td><td>French painter, noted for picture postcard views of Parisian streets.</td></tr>
+<tr id="row_77"><td>77</td><td>Russian School of Painting</td><td>Ivan Shishkin</td><td>1832-98</td><td>Forest/woodland landscape artist. See also: Russian Artists (1300-present).</td></tr>
+<tr id="row_78"><td>78</td><td>Russian School of Painting</td><td>Vasily Perov</td><td>1833-82</td><td>Critical realism-style genre painter.</td></tr>
+<tr id="row_79"><td>79</td><td>Russian School of Painting</td><td>Ivan Kramskoy</td><td>1837-1887</td><td>Foremost portraitist of 19th century Russia. Noted for Leo Tolstoy (1873).</td></tr>
+<tr id="row_80"><td>80</td><td>Russian School of Painting</td><td>Konstantin Savitsky</td><td>1844-1905</td><td>Critical realist genre painter.</td></tr>
+<tr id="row_81"><td>81</td><td>Russian School of Painting</td><td>Vasily Polenov</td><td>1844-1927</td><td>Landscape painter, also noted for biblical paintings.</td></tr>
+<tr id="row_82"><td>82</td><td>Russian School of Painting</td><td>Ilya Repin</td><td>1844-1930</td><td>The finest Russian/Ukrainian realist genre-painter and portraitist.</td></tr>
+<tr id="row_83"><td>83</td><td>Russian School of Painting</td><td>Vasily Surikov</td><td>1848-1916</td><td>Russia's greatest history painter of the 19th century.</td></tr>
+<tr id="row_84"><td>84</td><td>Russian School of Painting</td><td>Mikhail Vrubel</td><td>1856-1910</td><td>Symbolist painter, noted for his Demon paintings and mosaic-like brushwork.</td></tr>
+<tr id="row_85"><td>85</td><td>Russian School of Painting</td><td>Isaac Levitan</td><td>1860-1900</td><td>Landscape painter: master of light and colour.</td></tr>
+<tr id="row_86"><td>86</td><td>Russian School of Painting</td><td>Abram Arkhipov</td><td>1862-1930</td><td>Socially aware genre painter, in the critical realist style.</td></tr>
+<tr id="row_87"><td>87</td><td>Russian School of Painting</td><td>Valentin Serov</td><td>1865-1911</td><td>Greatest Russian Impressionist portrait painter.</td></tr>
+<tr id="row_88"><td>88</td><td>Primitive/Fantasy Art</td><td>Paul Klee</td><td>1879-1940</td><td>Expressionist, surrealist painter/graphic artist noted for his dreamlike imagery.</td></tr>
+<tr id="row_89"><td>89</td><td>Primitive/Fantasy Art</td><td>Henri Rousseau</td><td>1844-1910</td><td>Naive painter, noted for The Sleeping Gypsy and exotic landscapes.</td></tr>
+<tr id="row_90"><td>90</td><td>Primitive/Fantasy Art</td><td>Le Douanier</td><td></td><td></td></tr>
+<tr id="row_91"><td>91</td><td>Primitive/Fantasy Art</td><td>Marc Chagall</td><td>1887-1985</td><td>Prolific, versatile Jewish-Russian painter, lithographer, stained glass artist.</td></tr>
+<tr id="row_92"><td>92</td><td>Art Nouveau/Poster Designers</td><td>Jules Cheret</td><td>1836-1932</td><td>Inventor of &quote;3-stone chromolithographs&quote;; pioneer of advertising poster art.</td></tr>
+<tr id="row_93"><td>93</td><td>Art Nouveau/Poster Designers</td><td>Alphonse Mucha</td><td>1860-1939</td><td>Epitomizes Art Nouveau graphic art - posters, illustrations; painted Slav Epic.</td></tr>
+<tr id="row_94"><td>94</td><td>Art Nouveau/Poster Designers</td><td>Gustav Klimt</td><td>1862-1918</td><td>Leader of Viennese Secessionist movement, noted for his art nouveau style, and paintings using mosaic & gold, like The Kiss, Portrait of Adele Bloch-Bauer.</td></tr>
+<tr id="row_95"><td>95</td><td>Art Nouveau/Poster Designers</td><td>Aubrey Beardsley</td><td>1872-98</td><td>Art Nouveau illustrator, known for illustrations of Salome and Morte d'Arthur.</td></tr>
+<tr id="row_96"><td>96</td><td>Art Nouveau/Poster Designers</td><td>Leonetto Cappiello</td><td>1875-1942</td><td>Caricaturist, lithographer, poster designer noted for his functionalism.</td></tr>
+<tr id="row_97"><td>97</td><td>Fauvists</td><td>Henri Matisse</td><td>1869-1954</td><td>Founder of Fauvism and leading colourist in modern art. He remained obsessed with colour all his life.</td></tr>
+<tr id="row_98"><td>98</td><td>Fauvists</td><td>Albert Marquet</td><td>1875-1947</td><td>Specialized in watery landscapes of River Seine, ports etc. Impressionist style.</td></tr>
+<tr id="row_99"><td>99</td><td>Fauvists</td><td>Maurice de Vlaminck</td><td>1876-1958</td><td>Self-taught colourist painter, influenced by Van Gogh and later Cezanne.</td></tr>
+<tr id="row_100"><td>100</td><td>Fauvists</td><td>Raoul Dufy</td><td>1877-1953</td><td>French Impressionist/Fauvist painter noted for his colourism & mural paintings.</td></tr>
+<tr id="row_101"><td>101</td><td>Fauvists</td><td>Kees van Dongen</td><td>1877-1968</td><td>Dutch Fauvist, member of Dresden Die Brucke expressionist group, portraitist.</td></tr>
+<tr id="row_102"><td>102</td><td>Fauvists</td><td>Andre Derain</td><td>1880-1954</td><td>Member of Ecole de Paris, friend of Fauvist painters like Matisse, De Vlaminck.</td></tr>
+<tr id="row_103"><td>103</td><td>Expressionists</td><td>Arnold Bocklin</td><td>1827-1901</td><td>Symbolist painter from Switzerland, best known for Island of the Dead.</td></tr>
+<tr id="row_104"><td>104</td><td>Expressionists</td><td>Lovis Corinth</td><td>1858-1925</td><td>German modern artist, famous both for his Impressionism and Expressionism.</td></tr>
+<tr id="row_105"><td>105</td><td>Expressionists</td><td>Edvard Munch</td><td>1863-1944</td><td>Norwegian Expressionist painter, famous for The Scream.</td></tr>
+<tr id="row_106"><td>106</td><td>Expressionists</td><td>Alexei von Jawlensky</td><td>1864-1941</td><td>Russian colourist of Der Blaue Reiter group, noted for his portraits (heads).</td></tr>
+<tr id="row_107"><td>107</td><td>Expressionists</td><td>Wassily Kandinsky</td><td>1866-1944</td><td>Russian painter and art theorist, founder of Der Blaue Reiter art movement.</td></tr>
+<tr id="row_108"><td>108</td><td>Expressionists</td><td>Emil Nolde</td><td>1867-1956</td><td>Powerful expressionist artist, flower painter, printmaker (woodcuts).</td></tr>
+<tr id="row_109"><td>109</td><td>Expressionists</td><td>Frank Kupka</td><td>1871-1957</td><td>Czech abstract painter, based in Paris, noted for his non-objecrtive colourism.</td></tr>
+<tr id="row_110"><td>110</td><td>Expressionists</td><td>Georges Rouault</td><td>1871-1958</td><td>French expressionist painter, known for his oils, gouache, and watercolours.</td></tr>
+<tr id="row_111"><td>111</td><td>Expressionists</td><td>Ernst Ludwig Kirchner</td><td>1880-1938</td><td>Member of the Die Brucke art group, a precursor of German Expressionism.</td></tr>
+<tr id="row_112"><td>112</td><td>Expressionists</td><td>Franz Marc</td><td>1880-1916</td><td>Leading member of The Blue Rider group of expressionist painters.</td></tr>
+<tr id="row_113"><td>113</td><td>Expressionists</td><td>Amedeo Modigliani</td><td>1884-1920</td><td>Most powerful exponent of 20th century Expressionism in Paris.</td></tr>
+<tr id="row_114"><td>114</td><td>Expressionists</td><td>Max Beckmann</td><td>1884-1950</td><td>Member of New Objectivity group (Neue Sachlichkeit). Powerful self-portraits.</td></tr>
+<tr id="row_115"><td>115</td><td>Expressionists</td><td>Oskar Kokoschka</td><td>1886-1980</td><td>Portraitist, landscape artist; one of the longest-lived expressionist painters.</td></tr>
+<tr id="row_116"><td>116</td><td>Expressionists</td><td>Kurt Schwitters</td><td>1887-1948</td><td>German Dada artist noted for his &quote;Merz&quote; collage art, multi-media &quote;Merzbau&quote;.</td></tr>
+<tr id="row_117"><td>117</td><td>Expressionists</td><td>Egon Schiele</td><td>1890-1918</td><td>Short-lived but outrageously talented figure-painter.</td></tr>
+<tr id="row_118"><td>118</td><td>Expressionists</td><td>Otto Dix</td><td>1891-1969</td><td>Powerful anti-war painter, portraitist. Member of New Objectivity group.</td></tr>
+<tr id="row_119"><td>119</td><td>Expressionists</td><td>Chaim Soutine</td><td>1893-1943</td><td>Expressionist painter from Russia; active in Paris; noted for figurative painting.</td></tr>
+<tr id="row_120"><td>120</td><td>Expressionists</td><td>George Grosz</td><td>1893-1959</td><td>Berlin Dadaist, expressionist painter, member of Neue Sachlichkeit.</td></tr>
+<tr id="row_121"><td>121</td><td>Cubists</td><td>Francis Picabia</td><td>1879-1953</td><td>Avant-garde Cubist painter, later Dadaist and member of Surrealism.</td></tr>
+<tr id="row_122"><td>122</td><td>Cubists</td><td>Georges Braque</td><td>1882-1963</td><td>Co-founder of Analytical and Synthetic Cubism.</td></tr>
+<tr id="row_123"><td>123</td><td>Cubists</td><td>Pablo Picasso</td><td>1881-1973</td><td>Co-founder of Cubism, leading expressionist-style artist of 20th century.</td></tr>
+<tr id="row_124"><td>124</td><td>Cubists</td><td>Juan Gris</td><td>1887-1927</td><td>One of the great Cubist painters and the movement's leading theorist.</td></tr>
+<tr id="row_125"><td>125</td><td>Cubists</td><td>Fernand Leger</td><td>1881-1955</td><td>Fourth Cubist, socialist painter, muralist, stained glass and textile artist.</td></tr>
+<tr id="row_126"><td>126</td><td>Cubists</td><td>Robert Delaunay</td><td>1885-1941</td><td>Abstract painter, founder of Orphism (Orphic Cubism) or Simultanism.</td></tr>
+<tr id="row_127"><td>127</td><td>Cubists</td><td>Marcel Duchamp</td><td>1887-1968</td><td>Also a pioneer of Dada and Object Art, from which Conceptual Art emerged.</td></tr>
+<tr id="row_128"><td>128</td><td>20th Century Realism</td><td>Robert Henri</td><td>1865-1929</td><td>Realist New York painter, leader of The Group of Eight and Ashcan School.</td></tr>
+<tr id="row_129"><td>129</td><td>20th Century Realism</td><td>George Wesley Bellows</td><td>1882-1925</td><td>Ashcan school urban painter noted for sports pictures, A Stag at Sharkey's.</td></tr>
+<tr id="row_130"><td>130</td><td>20th Century Realism</td><td>Edward Hopper</td><td>1882-1967</td><td>American realist painter, noted for his narrative urban genre-paintings.</td></tr>
+<tr id="row_131"><td>131</td><td>20th Century Realism</td><td>Thomas Hart Benton</td><td>1889-1975</td><td>Realist artist, exponent of American Scene Painting and Regionalism.</td></tr>
+<tr id="row_132"><td>132</td><td>20th Century Realism</td><td>Grant Wood</td><td>1892-1942</td><td>Realist painter from Iowa, noted for his mid-West landscapes and portraits.</td></tr>
+<tr id="row_133"><td>133</td><td>20th Century Realism</td><td>Norman Rockwell</td><td>1894-1978</td><td>American Saturday Evening Post illustrator, subject-painter and portraitist.</td></tr>
+<tr id="row_134"><td>134</td><td>20th Century Realism</td><td>Andrew Wyeth</td><td>1917-2009</td><td>Realist tempera painter and watercolourist from Pennsylvania.</td></tr>
+<tr id="row_135"><td>135</td><td>20th Century Realism</td><td>Lucian Freud</td><td>1922-2011</td><td>British realist noted for his understated masterpieces of figurative art.</td></tr>
+<tr id="row_136"><td>136</td><td>Italian Metaphysical Painting</td><td>Giorgio De Chirico</td><td>1888-1978</td><td>Italian artist, co-inventor with Carlo Carra of Pittura Metafisica.</td></tr>
+<tr id="row_137"><td>137</td><td>Italian Metaphysical Painting</td><td>Giorgio Morandi</td><td>1890-1964</td><td>Minimalist still life painter.</td></tr>
+<tr id="row_138"><td>138</td><td>Art Deco</td><td>Tamara de Lempicka</td><td>c.1895-1980</td><td>Polish-Russian society portraitist, active in Paris.</td></tr>
+<tr id="row_139"><td>139</td><td>Surrealists</td><td>Paul Nash</td><td>1889-1946</td><td>Leader of English surrealism; War Artist, watercolourist, book illustrator.</td></tr>
+<tr id="row_140"><td>140</td><td>Surrealists</td><td>Man Ray</td><td>1890-1976</td><td>Dada artist, active in Paris; noted for Surrealist photography & junk art.</td></tr>
+<tr id="row_141"><td>141</td><td>Surrealists</td><td>Max Ernst</td><td>1891-1976</td><td>Ex-Dada artist, painter, sculptor, inventor of frottage and decalcomania.</td></tr>
+<tr id="row_142"><td>142</td><td>Surrealists</td><td>Joan Miro</td><td>1893-1983</td><td>Spanish surrealist painter: ceramicist, printmaker and stained glass artist.</td></tr>
+<tr id="row_143"><td>143</td><td>Surrealists</td><td>Paul Delvaux</td><td>1897-1994</td><td>Surrealist painter, famous for his Magic Realism and female nudes.</td></tr>
+<tr id="row_144"><td>144</td><td>Surrealists</td><td>Rene Magritte</td><td>1898-1967</td><td>Belgian classical painter, member of Magic Realism and Surrealism movements.</td></tr>
+<tr id="row_145"><td>145</td><td>Surrealists</td><td>Salvador Dali</td><td>1904-89</td><td>Spanish painter, one of the most famous surrealist artists.</td></tr>
+<tr id="row_146"><td>146</td><td>Geometric Abstraction</td><td>Kasimir Malevich</td><td>1878-1935</td><td>Cubist, founder of Suprematism. One of the pioneer abstract painters.</td></tr>
+<tr id="row_147"><td>147</td><td>Geometric Abstraction</td><td>Piet Mondrian</td><td>1872-1944</td><td>Member of De Stijl movement, noted for geometric abstract paintings.</td></tr>
+<tr id="row_148"><td>148</td><td>Geometric Abstraction</td><td>Theo van Doesburg</td><td>1883-1931</td><td>Abstract artist; painter, designer. Leading member of Dutch De Stijl group.</td></tr>
+<tr id="row_149"><td>149</td><td>Geometric Abstraction</td><td>Josef Albers</td><td>1888-1976</td><td>Bauhaus teacher, painter noted for Homage to the Square paintings.</td></tr>
+<tr id="row_150"><td>150</td><td>Geometric Abstraction</td><td>Victor Vasarely</td><td>1906-1997</td><td>Hungarian painter, graphic designer; founder of Op-Art, explored Kineticism.</td></tr>
+<tr id="row_151"><td>151</td><td>Geometric Abstraction</td><td>Bridget Riley</td><td>b.1931</td><td>Leader of British Op-Art movement, a form of geometric abstract art.</td></tr>
+<tr id="row_152"><td>152</td><td>Geometric Abstraction</td><td>Sean Scully</td><td>b.1945</td><td>Renowned for large-scale elemental shapes.</td></tr>
+<tr id="row_153"><td>153</td><td>Abstract Expressionists</td><td>Mark Tobey</td><td>1890-1976</td><td>Noted for his White Writing, a form of calligraphic gesturalism; tachisme art.</td></tr>
+<tr id="row_154"><td>154</td><td>Abstract Expressionists</td><td>Mark Rothko</td><td>1903-70</td><td>Latvian-American abstract painter, co-founder of Colour Field painting.</td></tr>
+<tr id="row_155"><td>155</td><td>Abstract Expressionists</td><td>Arshile Gorky</td><td>1904-48</td><td>Last surrealist, first abstract expressionist; influenced De Kooning.</td></tr>
+<tr id="row_156"><td>156</td><td>Abstract Expressionists</td><td>Clyfford Still</td><td>1904-1980</td><td>American artist, co-founder with Rothko/Newman of Colour Field painting.</td></tr>
+<tr id="row_157"><td>157</td><td>Abstract Expressionists</td><td>Willem De Kooning</td><td>1904-97</td><td>Noted for his gesturalism and &quote;Woman&quote; series.</td></tr>
+<tr id="row_158"><td>158</td><td>Abstract Expressionists</td><td>Barnett Newman</td><td>1905-70</td><td>Colour Field Painter. Pioneer influence on Post-Painterly Abstraction.</td></tr>
+<tr id="row_159"><td>159</td><td>Abstract Expressionists</td><td>Lee Krasner</td><td>1908-84</td><td>Wife of Jackson Pollock; her drip-paintings predated his 'action-painting'.</td></tr>
+<tr id="row_160"><td>160</td><td>Abstract Expressionists</td><td>Franz Kline</td><td>1910-1962</td><td>Famous for gestural action-painting & calligraphic black-and-white pictures.</td></tr>
+<tr id="row_161"><td>161</td><td>Abstract Expressionists</td><td>Jackson Pollock</td><td>1912-56</td><td>Founder of 'action-painting', variant of Abstract Expressionism in USA.</td></tr>
+<tr id="row_162"><td>162</td><td>Abstract Expressionists</td><td>Nicolas de Stael</td><td>1914-1955</td><td>Russian-French abstract painter noted for his colourism & Lyrical Abstraction.</td></tr>
+<tr id="row_163"><td>163</td><td>Abstract Expressionists</td><td>Robert Motherwell</td><td>1915-91</td><td>Painter, collagist, lithographer, famous for Elegy to the Spanish Republic.</td></tr>
+<tr id="row_164"><td>164</td><td>Abstract Expressionists</td><td>Sam Francis</td><td>1923-1994</td><td>American painter, member of Tachisme & Lyrical Abstraction movements.</td></tr>
+<tr id="row_165"><td>165</td><td>Abstract Expressionists</td><td>Kenneth Noland</td><td>b.1924</td><td>Associated with Hard Edge Painting, Minimalism & Post-Painterly Abstraction.</td></tr>
+<tr id="row_166"><td>166</td><td>Abstract Expressionists</td><td>Helen Frankenthaler</td><td>b.1928</td><td>Founder of colour stain painting, a variant of drip-painting.</td></tr>
+<tr id="row_167"><td>167</td><td>Abstract Expressionists</td><td>Frank Stella</td><td>b.1936</td><td>Minimalist, Hard-Edge painter, noted for his shaped canvases and printmaking.</td></tr>
+<tr id="row_168"><td>168</td><td>Pop Artists</td><td>Roy Lichtenstein</td><td>1923-97</td><td>Creator of comic-strip style, benday dot paintings, like &quote;Wham!&quote;</td></tr>
+<tr id="row_169"><td>169</td><td>Pop Artists</td><td>Andy Warhol</td><td>1928-87</td><td>Founder of Pop-Art movement, noted for screenprints & popular imagery.</td></tr>
+<tr id="row_170"><td>170</td><td>Pop Artists</td><td>Robert Rauschenberg</td><td>1925-2008</td><td>Noted for his &quote;Combines&quote;, collages, assemblages and conceptualism.</td></tr>
+<tr id="row_171"><td>171</td><td>Pop Artists</td><td>Jasper Johns</td><td>b.1930</td><td>Painter, sculptor, lithographer, collage & multi-media artist; Neo-Dada.</td></tr>
+<tr id="row_172"><td>172</td><td>Pop Artists</td><td>David Hockney</td><td>b.1937</td><td>English Pop artist, noted for portraits, etchings and photo-collages.</td></tr>
+<tr id="row_173"><td>173</td><td>Contemporary Painters</td><td>Marsden Hartley</td><td>1877-1943</td><td>American painter, best known for abstract Cubist/Expressionist war portraits.</td></tr>
+<tr id="row_174"><td>174</td><td>Contemporary Painters</td><td>Diego Rivera</td><td>1886-1957</td><td>Greatest Mexican fresco mural painter, with David Siqueiros and Jose Orozco.</td></tr>
+<tr id="row_175"><td>175</td><td>Contemporary Painters</td><td>Georgia O'Keeffe</td><td>1887-1986</td><td>American artist, flower-painter; urban landscapes; wife of Alfred Stieglitz.</td></tr>
+<tr id="row_176"><td>176</td><td>Contemporary Painters</td><td>L.S. Lowry</td><td>1887-1976</td><td>English genre-painter and urban cityscape artist noted for &quote;matchstick men&quote;.</td></tr>
+<tr id="row_177"><td>177</td><td>Contemporary Painters</td><td>Jean Dubuffet</td><td>1901-1985</td><td>French experimental painter, portraitist, Art Brut collector.</td></tr>
+<tr id="row_178"><td>178</td><td>Contemporary Painters</td><td>Frida Kahlo</td><td>1907-1954</td><td>Mexican surrealist self portraitist, wife of Diego Rivera.</td></tr>
+<tr id="row_179"><td>179</td><td>Contemporary Painters</td><td>Balthus (Balthazar Klossowski de Rola)</td><td>1908-2001</td><td>Surrealist-style figurative painter, best known for pictures of young girls.</td></tr>
+<tr id="row_180"><td>180</td><td>Contemporary Painters</td><td>Francis Bacon</td><td>1909-92</td><td>Noted for his grotesque imagery and surrealistic-style compositions.</td></tr>
+<tr id="row_181"><td>181</td><td>Contemporary Painters</td><td>Agnes Martin</td><td>1912-2004</td><td>American Minimalist painter; hand-drawn pencil grids on gesso, acrylics/oils.</td></tr>
+<tr id="row_182"><td>182</td><td>Contemporary Painters</td><td>Wols: Alfred Otto Wolfgang Schulze</td><td>1913-51</td><td>German painter, member of Art Informel, Tachisme and Lyrical Abstraction.</td></tr>
+<tr id="row_183"><td>183</td><td>Contemporary Painters</td><td>Asger Jorn</td><td>1914-73</td><td>Danish gesturalist painter, founder of COBRA group, linked to Art Informel.</td></tr>
+<tr id="row_184"><td>184</td><td>Contemporary Painters</td><td>Karel Appel</td><td>1921-2006</td><td>Dutch abstract painter, gesturalist; member of Art Informel & Tachisme.</td></tr>
+<tr id="row_185"><td>185</td><td>Contemporary Painters</td><td>Antoni Tapies</td><td>b.1923</td><td>Spanish abstract artist; mixed media Matter Painting style of Art Informel.</td></tr>
+<tr id="row_186"><td>186</td><td>Contemporary Painters</td><td>Yves Klein</td><td>1928-62</td><td>Pioneer of contemporary performance art, patented the colour International Klein Blue (IKB) and founded Anthropometry painting. Refreshingly original, in the Dada tradition, and one of the first authentic postmodernist artists.</td></tr>
+<tr id="row_187"><td>187</td><td>Contemporary Painters</td><td>Frank Auerbach</td><td>b.1931</td><td>British semi-abstract portrait painter, noted for heavily impastoed paintings.</td></tr>
+<tr id="row_188"><td>188</td><td>Contemporary Painters</td><td>Fernando Botero</td><td>b.1932</td><td>Columbian artist, leading South American painter noted for obese figures.</td></tr>
+<tr id="row_189"><td>189</td><td>Contemporary Painters</td><td>Richard Estes</td><td>b.1932</td><td>US superrealist painter of urban architecture.</td></tr>
+<tr id="row_190"><td>190</td><td>Contemporary Painters</td><td>Robert Smithson</td><td>1938-1973</td><td>Painter, sculptor, installation and land artist; noted for large earthworks.</td></tr>
+<tr id="row_191"><td>191</td><td>Contemporary Painters</td><td>Georg Baselitz</td><td>b.1938</td><td>German Neo-Expressionist painter, famous for his upside down paintings.</td></tr>
+<tr id="row_192"><td>192</td><td>Contemporary Painters</td><td>Chuck Close</td><td>b.1940</td><td>Leader of American photorealism style, noted for gigantic self-portraits.</td></tr>
+<tr id="row_193"><td>193</td><td>Contemporary Painters</td><td>Jack Vettriano</td><td>b.1951</td><td>Populist British genre-painter, noted for The Singing Butler.</td></tr>
+<tr id="row_194"><td>194</td><td>Contemporary Painters</td><td>Jean-Michel Basquiat</td><td>1960-88</td><td>New York graffiti artist, noted for his urban neo-expressionism.</td></tr>
+<tr id="row_195"><td>195</td><td>Contemporary Painters</td><td>Damien Hirst</td><td>b.1965</td><td>Leader of Young British Artists, best-known for his installations, like A Thousand Years (1989), The Physical Impossibility of Death in the Mind of Someone Living (1991), and his 'sculpture' For The Love of God (2007).</td></tr>
+<tr id="row_196"><td>196</td><td>Contemporary Painters</td><td>Tracey Emin</td><td>b.1963</td><td>British multimedia postmodernist artist, noted for My Bed (1998).</td></tr>
+<tr id="row_197"><td>197</td><td>Contemporary Painters</td><td>Banksy</td><td>b.1973-4</td><td>Postmodernist graffiti stencil painter, street sculptor, installation artist.</td></tr>
+</table>
+
+				<hr style="clear:left">
+				<!--- <span>Hierarchy and species details retrieved via <a href="http://tolweb.org/">Tree of Life Web Project</a> ReST interface.</span> --->
+
+			</div>
+		</section>
+
+   		<footer>
+			<p>
+				<a href="https://hhrogersii@github.com/hhrogersii/js-namespaces.git">0.9</a> &larr; <cfoutput>
+	 			<a href="http://hhrogersii.com/lab/arborist/">Arborist</a> &larr; 
+				<a href="http://hhrogersii.com/lab/">arg!eBarg!e</a> &larr; 
+				<a href="http://hhrogersii.com/">hhROGERSii</a></cfoutput>
+			</p>
+		</footer>
+
+    </article>
+
+	</div>
+
+	<div id="footer-container" class="wrapper lab">
+		<footer>
+			<p>All code authored by hhrogersii is available for use with or without attribution under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT license</a>.
+			<br />See disclaimers provided by the authors of code included in this site for the terms and conditions of the use of their work.</p>
+		</footer>
+	</div>
+
+	<!--Thank you jQuery -->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
+	<script type="text/javascript" src="Flexigrid.js"></script>
+	<script src="/js/jquery.xml2json.js"></script>
+	<script src="fg-painters.js"></script>
+	<script>$(window).load(main);</script>
+	
+</body>
+
+</html>
