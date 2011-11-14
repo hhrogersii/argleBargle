@@ -13,7 +13,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
-	<link rel="stylesheet" type="text/css" href="Tree.css" />
+	<link type="text/css" rel="stylesheet" href="Tree.css" />
 </head>
 
 <body lang="en">
@@ -84,7 +84,7 @@
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
 	<script type="text/javascript" src="Tree.js"></script>
 	<script>$(window).load(main);</script>
-	
+
 </body>
 
 </html>

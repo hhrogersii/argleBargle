@@ -1,41 +1,35 @@
-<!doctype html>
-<html>
+<cffunction name="PageInfo" returntype="struct" output="false">
+<cfscript>
+	return {
+		  ttl = "Flexigrid Enhancement"
+		, dsc = "&hellip;improvements to the Flexigrid table tool."
+		, lay = "Lab"
+	};
+</cfscript>
+</cffunction>
 
-<head>
-	<meta charset="utf-8" />
-	<title>&gt;arg!eBarg!e: Flexigrid Enhancement</title>
-	<meta name="description" content="&hellip;improvements to the Flexigrid table tool." />
-	<meta name="author" content="Henry Harper Rogers II" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
-	<link rel="stylesheet" type="text/css" href="Flexigrid.css" />
-</head>
+<cffunction name="PageHeader" access="public" output="true" returntype="void">
+	<link type="text/css" rel="stylesheet" href="flexigrid-min.css" />
+	<link type="text/css" rel="stylesheet" href="/js/jquery-ui-1.8.16.custom/css/smoothness/jquery-ui-1.8.16.custom.css"/>
+</cffunction>
 
-<body lang="en">
-
-	<div id="header-container" class="wrapper lab">
-    	<header>
-			<h1>&gt;arg!eBarg!e:</h1>
-			<span>&hellip;such as an argument, often a worthless, but energetic, conversation or comment.</span>
-		</header>
-	</div>
-
-	<div id="main" class="wrapper lab" role="main">
+<cffunction name="PageContent" returntype="void" output="true">
+	<cfsilent>	
+		<cffile action="read" file="#ExpandPath('/lab/flexigrid/Flexigrid.js')#" variable="request.js">
+		<cffile action="read" file="#ExpandPath('/lab/flexigrid/Flexigrid.cfm')#" variable="request.cf">
+		<cffile action="read" file="#ExpandPath('/lab/flexigrid/Flexigrid.css')#" variable="request.css">
+		<cffile action="read" file="#ExpandPath('/lab/flexigrid/fg-painters.js')#" variable="request.painters">
+		<cffile action="read" file="#ExpandPath('/lab/flexigrid/fg-vam.js')#" variable="request.vam">
+	</cfsilent>
     <article>
 
         <header>
-        	<h2>Flexigrid Enhancement</h2>
-        	<p>&hellip;improvements to the Flexigrid table tool.</p>
+        	<h2>#request.Page.getTitle()#</h2>
+        	<p>#request.Page.getDescription()#</p>
         </header>
 
 		<section>
 			<div class="section" style="position:relative">
-
-				<h3>Painters</h3>
-
 <table class="flex-painters">
 <tr id="row_1"><td>1</td><td>English School</td><td>William Hogarth</td><td>1697-1764</td><td>English painter, engraver, founder of English School of figurative painting.</td></tr>
 <tr id="row_2"><td>2</td><td>English School</td><td>Richard Wilson</td><td>1714-82</td><td>Founder of modern English School of landscape painting.</td></tr>
@@ -235,41 +229,77 @@
 <tr id="row_196"><td>196</td><td>Contemporary Painters</td><td>Tracey Emin</td><td>b.1963</td><td>British multimedia postmodernist artist, noted for My Bed (1998).</td></tr>
 <tr id="row_197"><td>197</td><td>Contemporary Painters</td><td>Banksy</td><td>b.1973-4</td><td>Postmodernist graffiti stencil painter, street sculptor, installation artist.</td></tr>
 </table>
-
+				<span>Painter information courtesy of <a href="http://www.visual-arts-cork.com">Encyclopedia OF Art Education</a>.</span>
+				
 				<hr style="clear:left">
-				<!--- <span>Hierarchy and species details retrieved via <a href="http://tolweb.org/">Tree of Life Web Project</a> ReST interface.</span> --->
 
+				<table class="flex-vam"></table>
+				
+				<span>Art data courtesy of <a href="http://www.vam.ac.uk/api/">Victoria &amp; Albert Museum</a> ReST interface.</span>
 			</div>
+
+<!---
+				<div id="wa">
+<iframe name="wa-details" id="info" height="200" width="500" src="##" style="float:right;height:100%"></iframe>
+				</div>
+--->
+
+			<div id="tabs" class="section">
+				<ul>
+					<li><a href="##tabs-1">Javascript</a></li>
+					<li><a href="##tabs-2">ColdFusion</a></li>
+					<li><a href="##tabs-3">CSS</a></li>
+					<li><a href="##tabs-4">Static</a></li>
+					<li><a href="##tabs-5">Ajax</a></li>
+				</ul>
+				<div id="tabs-1">
+<pre class="brush: js; ruler:false; toolbar:true;">#request.js#</pre>
+				</div>
+				<div id="tabs-2">
+<pre class="brush: html; ruler:false; toolbar:true;">#HTMLEditFormat( request.cf )#</pre>
+				</div>
+				<div id="tabs-3">
+<pre class="brush: css; ruler:false; toolbar:true;">#HTMLEditFormat( request.css )#</pre>
+				</div>
+				<div id="tabs-4">
+<pre class="brush: coldfusion; ruler:false; toolbar:true;">#HTMLEditFormat( request.painters )#</pre>
+				</div>
+				<div id="tabs-5">
+<pre class="brush: xml; ruler:false; toolbar:true;">#HTMLEditFormat( request.vam )#</pre>
+				</div>
+			</div>
+
 		</section>
 
    		<footer>
 			<p>
-				<a href="https://hhrogersii@github.com/hhrogersii/js-namespaces.git">0.9</a> &larr; <cfoutput>
-	 			<a href="http://hhrogersii.com/lab/arborist/">Arborist</a> &larr; 
-				<a href="http://hhrogersii.com/lab/">arg!eBarg!e</a> &larr; 
-				<a href="http://hhrogersii.com/">hhROGERSii</a></cfoutput>
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/flexigrid"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a> &larr;
+				<a href="#request.url.base#">Flexigrid</a> &larr; 
+				<a href="#request.url.root#lab/">arg!eBarg!e</a> &larr; 
+				<a href="#request.url.root#">hhROGERSii</a>
 			</p>
 		</footer>
 
     </article>
+</cffunction>
 
-	</div>
-
-	<div id="footer-container" class="wrapper lab">
-		<footer>
-			<p>All code authored by hhrogersii is available for use with or without attribution under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT license</a>.
-			<br />See disclaimers provided by the authors of code included in this site for the terms and conditions of the use of their work.</p>
-		</footer>
-	</div>
-
-	<!--Thank you jQuery -->
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
-	<script type="text/javascript" src="Flexigrid.js"></script>
+<cffunction name="PageFooter" access="public" returntype="void">
+	<script src="/js/jquery-ui-1.8.16.custom/js/jquery-ui-1.8.16.custom.min.js"></script>
+	<script src="flexigrid-min.js"></script>
 	<script src="/js/jquery.xml2json.js"></script>
+	<script src="fg-vam.js"></script>
 	<script src="fg-painters.js"></script>
+	<script>
+		$('#tabs').tabs();
+		$('#dialog_link, ul#icons li').hover(
+			function(){
+				$(this).addClass('ui-state-hover');
+			}, 
+			function(){
+				$(this).removeClass('ui-state-hover');
+			}
+		);
+	</script>
 	<script>$(window).load(main);</script>
-	
-</body>
 
-</html>
+</cffunction>

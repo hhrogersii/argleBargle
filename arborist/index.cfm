@@ -9,7 +9,7 @@
 </cffunction>
 
 <cffunction name="PageHeader" access="public" output="true" returntype="void">
-	<link type="text/css" rel="stylesheet" href="Tree.css"/>
+	<link type="text/css" rel="stylesheet" href="Tree.css" />
 	<link type="text/css" rel="stylesheet" href="/js/jquery-ui-1.8.16.custom/css/smoothness/jquery-ui-1.8.16.custom.css"/>
 </cffunction>
 
@@ -99,8 +99,8 @@
 </cffunction>
 
 <cffunction name="PageFooter" access="public" returntype="void">
-	<script src="Tree.js"></script>
 	<script src="/js/jquery-ui-1.8.16.custom/js/jquery-ui-1.8.16.custom.min.js"></script>
+	<script src="Tree.js"></script>
 	<script>
 		$('#tabs').tabs();
 		$('#dialog_link, ul#icons li').hover(
@@ -112,4 +112,5 @@
 			}
 		);
 	</script>
+
 </cffunction>
