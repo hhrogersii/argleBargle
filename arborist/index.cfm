@@ -88,7 +88,7 @@
 
    		<footer>
 			<p>
-				<a href="https://hhrogersii@github.com/hhrogersii/js-namespaces.git">0.9</a> &larr; 
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/arborist"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a> &larr;
 				<a href="#request.url.base#">Arborist</a> &larr; 
 				<a href="#request.url.root#lab/">arg!eBarg!e</a> &larr; 
 				<a href="#request.url.root#">hhROGERSii</a>

@@ -71,7 +71,7 @@
 
    		<footer>
 			<p>
-				<a href="https://hhrogersii@github.com/hhrogersii/js-namespaces.git">0.4</a> &larr; 
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/calendar"><img src="/img/octodex.png" width="24" height="24" alt="Git'er Done" class="githubicon" /></a> &larr; 
 				<a href="#request.url.base#">Calendar</a> &larr; 
 				<a href="#request.url.root#lab/">arg!eBarg!e</a> &larr; 
 				<a href="#request.url.root#">hhROGERSii</a>

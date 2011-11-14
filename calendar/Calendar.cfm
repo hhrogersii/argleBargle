@@ -22,7 +22,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>&gt;arg!eBarg!e: Pop-up Calendar</title>
-	<meta name="description" content="&hellip;a multi-modal date selector." />
+	<meta name="description" content="&hellip;a multi-modal fast date selector." />
 	<meta name="author" content="Henry Harper Rogers II" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
@@ -32,7 +32,7 @@
 	<link rel="stylesheet" href="Calendar.css" type="text/css">
 </head>
 
-<body class="calendar">
+<body lang="en" class="calendar">
 
 <cfif IsDate(request.Date)>
 

@@ -61,10 +61,10 @@
 
    		<footer>
 			<p>
-				<a href="https://hhrogersii@github.com/hhrogersii/js-namespaces.git">0.9</a> &larr; <cfoutput>
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/arborist"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a>  &larr;
 	 			<a href="http://hhrogersii.com/lab/arborist/">Arborist</a> &larr; 
 				<a href="http://hhrogersii.com/lab/">arg!eBarg!e</a> &larr; 
-				<a href="http://hhrogersii.com/">hhROGERSii</a></cfoutput>
+				<a href="http://hhrogersii.com/">hhROGERSii</a>
 			</p>
 		</footer>
 
