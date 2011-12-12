@@ -1,0 +1,153 @@
+added ;
+changed == to ===
+added parseint radix
+changed " to '
+
+0 - x ==> -x
+
+added {} around if
+
+++ => +=1
+
+vdiff 230
+
+jquery on 1227 ==> $
+
+ssel
+sopt
+si at 1516
+
+newH ++> 137 & 274 & 1228
+
+
+populate 
+				if (p.url)
+				{
+					$.ajax(
+						{
+							type: p.method,
+							url: p.url,
+							data: param,
+							dataType: p.dataType,
+							success: function (data)
+							{
+								g.addData(data);
+							},
+							error: function (XMLHttpRequest, textStatus, errorThrown)
+							{
+								try
+								{
+									if (p.onError)
+									{
+										p.onError(XMLHttpRequest, textStatus, errorThrown);
+									}
+								}
+								catch (e)
+								{}
+							}
+						}
+					);
+				}
+				else
+				{
+					addData(dataset);
+				}
+
+
+doSearch: function ()
+			{
+				p.query = $('input[name=q]', g.sDiv).val();
+				p.qtype = $('select[name=qtype]', g.sDiv).val();
+				p.newp = 1;
+				
+				if (p.query === '')
+				{
+					return false;
+				}
+				if ( p.onDoSearch ) 
+				{
+					dataset = p.onDoSearch(d, p.query, p.qtype);
+					this.addData(dataset);
+				}
+				else
+				{
+					this.populate();
+				}
+			}
+			
+			
+changeSort: function ()
+			{
+				p.newp = 1;
+				
+				if (p.onChangeSort)
+				{
+					dataset = p.onChangeSort(dataset, p.sortname, p.sortorder);
+					this.addData(dataset);
+				}
+				else
+				{
+					this.populate();
+				}
+			}	
+				
+changePage: function ()
+			{
+				if (p.newp === p.page)
+				{
+					return false;
+				}
+				
+				if (p.onChangePage)
+				{
+					this.addData( p.onPageChange(dataset, p.newp, p.rp) );
+				}
+				else
+				{
+					this.populate();
+				}
+			}	
+			
+Constructor
+		if (p.usepager)
+		{
+			$('.pReload', g.pDiv).click(function ()
+			{
+				g.populate()
+			});
+
+			if (p.useRp)
+			{
+				$('select', g.pDiv).change(function ()
+				{
+					if (p.onRpChange)
+					{
+						p.onRpChange(+this.value);
+					}
+					else
+					{
+						p.newp = 1;
+						p.rp = +this.value;
+						g.populate();
+					}
+				});
+			}
+		}
+		
+		
+Public Functions
+	$.fn.flexReload = function (p)
+	{ // function to reload grid
+		return this.each(function ()
+		{
+			if (this.grid && this.p.url) this.grid.populate();
+		});
+	};
+	
+	
+	
+9/16
+
+2.5-2 
+2.25-2
+2.0-2

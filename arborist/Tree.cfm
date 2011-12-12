@@ -5,9 +5,9 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>&gt;arg!eBarg!e: JavaScript Arborist</title>
+	<title>&gt;arg&iexcl;eBarg!e: JavaScript Arborist</title>
 	<meta name="description" content="&hellip;methods for managing tree structures." />
-	<meta name="author" content="Henry Harper Rogers II" />
+	<meta name="author" content="Henry Rogers" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,8 +19,14 @@
 <body lang="en">
 
 	<div id="header-container" class="wrapper lab">
+			<div style="float:right">
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/arborist/"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a>  &larr;
+	 			<a href="http://hhrogersii.com/lab/arborist/">Arborist</a> &larr; 
+				<a href="http://hhrogersii.com/lab/">&gt;arg&iexcl;eBarg!e</a> &larr; 
+				<a href="http://hhrogersii.com/">hhROGERSii</a>
+			</div>
     	<header>
-			<h1>&gt;arg!eBarg!e:</h1>
+			<h1>&gt;arg&iexcl;eBarg!e:</h1>
 			<span>&hellip;such as an argument, often a worthless, but energetic, conversation or comment.</span>
 		</header>
 	</div>
@@ -61,9 +67,9 @@
 
    		<footer>
 			<p>
-				<a href="https://github.com/hhrogersii/argleBargle/tree/master/arborist"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a>  &larr;
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/arborist/"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a>  &larr;
 	 			<a href="http://hhrogersii.com/lab/arborist/">Arborist</a> &larr; 
-				<a href="http://hhrogersii.com/lab/">arg!eBarg!e</a> &larr; 
+				<a href="http://hhrogersii.com/lab/">&gt;arg&iexcl;eBarg!e</a> &larr; 
 				<a href="http://hhrogersii.com/">hhROGERSii</a>
 			</p>
 		</footer>
@@ -83,7 +89,7 @@
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
 	<script type="text/javascript" src="Tree.js"></script>
-	<script>$(window).load(main);</script>
+	<script>if(main)$(window).load(main);</script>
 
 </body>
 

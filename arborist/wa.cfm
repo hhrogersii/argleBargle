@@ -1,4 +1,3 @@
-<!--- get your own wolfram appid and replace X^X below --->
 <cfsetting enableCFoutputOnly="Yes">
 <cfflush>
 
@@ -7,7 +6,7 @@
 
 <cfif Compare(form.input,"")>
 
-	<cfhttp url="http://api.wolframalpha.com/v2/query?input=#URLEncodedFormat(form.input)#&appid=XXXXXXXXXXXXXXX&format=html">
+	<cfhttp url="http://api.wolframalpha.com/v2/query?input=#URLEncodedFormat(form.input)#&appid=GX7YKA-XH97X4JUAG&format=html">
 	<cfset xmlData = cfhttp.filecontent>
 	<cfset xslFile = "wolframalpha.xsl">
 

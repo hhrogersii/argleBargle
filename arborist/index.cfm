@@ -8,7 +8,7 @@
 </cfscript>
 </cffunction>
 
-<cffunction name="PageHeader" access="public" output="true" returntype="void">
+<cffunction name="PageHeader" access="public" output="true">
 	<link type="text/css" rel="stylesheet" href="Tree.css" />
 	<link type="text/css" rel="stylesheet" href="/js/jquery-ui-1.8.16.custom/css/smoothness/jquery-ui-1.8.16.custom.css"/>
 </cffunction>
@@ -24,8 +24,13 @@
 		<cffile action="read" file="#ExpandPath('/lab/arborist/wolframalpha.xsl')#" variable="request.xsl">
 	</cfsilent>
     <article>
-
         <header>
+			<div style="float:right">
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/arborist/"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a> &larr;
+				<a href="#request.url.base#">Arborist</a> &larr; 
+				<a href="#request.url.root#/lab/">&gt;arg&iexcl;eBarg!e</a> &larr; 
+				<a href="#request.url.root#/">hhROGERSii</a>
+			</div>
         	<h2>#request.Page.getTitle()#</h2>
         	<p>#request.Page.getDescription()#</p>
         </header>
@@ -88,17 +93,17 @@
 
    		<footer>
 			<p>
-				<a href="https://github.com/hhrogersii/argleBargle/tree/master/arborist"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a> &larr;
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/arborist/"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a> &larr;
 				<a href="#request.url.base#">Arborist</a> &larr; 
-				<a href="#request.url.root#lab/">arg!eBarg!e</a> &larr; 
-				<a href="#request.url.root#">hhROGERSii</a>
+				<a href="#request.url.root#/lab/">&gt;arg&iexcl;eBarg!e</a> &larr; 
+				<a href="#request.url.root#/">hhROGERSii</a>
 			</p>
 		</footer>
 
     </article>
 </cffunction>
 
-<cffunction name="PageFooter" access="public" returntype="void">
+<cffunction name="PageFooter" access="public">
 	<script src="/js/jquery-ui-1.8.16.custom/js/jquery-ui-1.8.16.custom.min.js"></script>
 	<script src="Tree.js"></script>
 	<script>
@@ -112,5 +117,5 @@
 			}
 		);
 	</script>
-
+	<script>if(main)$(window).load(main);</script>
 </cffunction>

@@ -26,7 +26,7 @@ function OutputNode( data, id )
 	{
 		if ( Compare(data.Name,"") )
 		{ 
-			WriteOutput( '<div><a href="wa.cfm?input=' & URLEncodedFormat(data.Name) & '" target="wa-details" class="wa-link">' & data.Name & '</a></div>' );
+			WriteOutput( '<div><a href="wa.cfm?input=' & URLEncodedFormat(data.Name) & '" target="wa-details">' & data.Name & '</a></div>' );
 		}
 		else
 		{

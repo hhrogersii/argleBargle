@@ -1,0 +1,102 @@
+.jroulette {
+	padding-bottom:30px;
+	width:660px;
+}
+.roul-touchmargin {
+	height: 360px;
+	position: relative;
+	overflow: hidden;
+	width: 640px;
+	border: 10px solid #fff7d1;
+}
+.roul-wrap {
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 0s;
+	-webkit-transition-timing-function: cubic-bezier(0,1,1,1);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.roul-wrap a {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	border: none;
+	
+}
+.roul-boxy {
+	width: 4480px;
+}
+.roul-slds {
+	margin: 0;
+	width: 640px;
+	position: absolute;
+	text-align: center;
+	background-color: #e4e2d3;
+}
+.roul-slds img {
+	/* width: 640px; */
+	height: 360px;
+	border: none;
+}
+.roul-slds a {
+	cursor:move;
+}
+.roul-bump-left, .roul-bump-right {
+	background-color: white;
+	width: 40px;
+	height: 360px;
+	opacity: .0;
+	-moz-opacity: .0;
+	cursor: pointer;
+}
+.roul-bump-left.hover, .roul-bump-right.hover {
+	opacity: .7;
+	-moz-opacity: .7;
+}
+.roul-bump-left.hover {
+	background: no-repeat url('/img/arrow_next_left.png') center center rgba(255,255,255,0.6);
+}
+.roul-bump-right.hover {
+	background: no-repeat url('/img/arrow_next_right.png') center center rgba(255,255,255,0.6);
+}
+.roul-bump-left {
+	float: left;
+	position: absolute;
+    z-index: 100;
+}
+.roul-bump-right {
+	float: right;
+}
+.roul-page {
+	text-align: center;
+	float: left;
+	width: 660px;
+}
+.roul-page ul {
+	list-style-position: inside;
+	list-style-type:decimal;
+	display: inline-block;
+}
+.roul-page li {
+	color: #aa8b64;
+	width: 26px;
+	float: left; 
+	font-size:16px; 
+	margin: 2px;
+	padding: 4px 0 4px 8px
+}
+.roul-page li.hover {
+	text-shadow: 0px 0px 3px;
+	/* -moz-box-shadow:inset 0 0 6px 6px #ECE5CF;
+		-webkit-box-shadow:inset 0 0 6px 6px #ECE5CF;
+			box-shadow:inset 0 0 6px 6px #ECE5CF;
+	background-color: #b89e8a; */                          
+	color: #333;
+}
+.roul-page li a {
+	position:absolute; 
+	left:-1000px;
+}

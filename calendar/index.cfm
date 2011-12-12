@@ -1,9 +1,9 @@
 <cffunction name="PageInfo" returntype="struct" output="false">
 <cfscript>
 	return {
-		  ttl = "Pop-up Calendar"
-		, dsc = "a simple pop-up calendar for fast date finding."
-		, lay = "Lab"
+		  ttl = 'cfCalendar'
+		, dsc = '&hellip;a simple pop-up calendar for fast date finding.'
+		, lay = 'Lab'
 	};
 </cfscript>
 </cffunction>
@@ -73,8 +73,8 @@
 			<p>
 				<a href="https://github.com/hhrogersii/argleBargle/tree/master/calendar"><img src="/img/octodex.png" width="24" height="24" alt="Git'er Done" class="githubicon" /></a> &larr; 
 				<a href="#request.url.base#">Calendar</a> &larr; 
-				<a href="#request.url.root#lab/">arg!eBarg!e</a> &larr; 
-				<a href="#request.url.root#">hhROGERSii</a>
+				<a href="#request.url.root#/lab/">&gt;arg&iexcl;eBarg!e</a> &larr; 
+				<a href="#request.url.root#/">hhROGERSii</a>
 			</p>
 		</footer>
 

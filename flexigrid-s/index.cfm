@@ -1,29 +1,35 @@
 <cffunction name="PageInfo" returntype="struct" output="false">
 <cfscript>
 	return {
-		  ttl = "Flexigrid Enhancement"
-		, dsc = "&hellip;improvements to the Flexigrid table tool."
+		  ttl = "Flexigrid-S"
+		, dsc = "&hellip;extensions to the jQuery table plugin."
 		, lay = "Lab"
 	};
 </cfscript>
 </cffunction>
 
 <cffunction name="PageHeader" access="public" output="true" returntype="void">
-	<link type="text/css" rel="stylesheet" href="flexigrid-min.css" />
+	<link type="text/css" rel="stylesheet" href="flexigrid.css" />
 	<link type="text/css" rel="stylesheet" href="/js/jquery-ui-1.8.16.custom/css/smoothness/jquery-ui-1.8.16.custom.css"/>
 </cffunction>
 
 <cffunction name="PageContent" returntype="void" output="true">
 	<cfsilent>	
-		<cffile action="read" file="#ExpandPath('/lab/flexigrid/Flexigrid.js')#" variable="request.js">
-		<cffile action="read" file="#ExpandPath('/lab/flexigrid/Flexigrid.htm')#" variable="request.htm">
-		<cffile action="read" file="#ExpandPath('/lab/flexigrid/Flexigrid.css')#" variable="request.css">
-		<cffile action="read" file="#ExpandPath('/lab/flexigrid/fg-painters.js')#" variable="request.painters">
-		<cffile action="read" file="#ExpandPath('/lab/flexigrid/fg-vam.js')#" variable="request.vam">
+		<!--- <cffile action="read" file="#ExpandPath('/lab/flexigrid-s/Flexigrid.js')#" variable="request.js"> --->
+		<cffile action="read" file="#ExpandPath('/lab/flexigrid-s/Flexigrid.htm')#" variable="request.htm">
+		<cffile action="read" file="#ExpandPath('/lab/flexigrid-s/Flexigrid.css')#" variable="request.css">
+		<cffile action="read" file="#ExpandPath('/lab/flexigrid-s/fg-painters.js')#" variable="request.painters">
+		<cffile action="read" file="#ExpandPath('/lab/flexigrid-s/fg-vam.js')#" variable="request.vam">
 	</cfsilent>
     <article>
 
         <header>
+        	<div style="float:right">
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/flexigrid-s/"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a> &larr;
+				<a href="#request.url.base#">Flexigrid-S</a> &larr; 
+				<a href="#request.url.root#/lab/">&gt;arg&iexcl;eBarg!e</a> &larr; 
+				<a href="#request.url.root#/">hhROGERSii</a>
+        	</div>
         	<h2>#request.Page.getTitle()#</h2>
         	<p>#request.Page.getDescription()#</p>
         </header>
@@ -229,14 +235,14 @@
 <tr id="row_196"><td>196</td><td>Contemporary Painters</td><td>Tracey Emin</td><td>b.1963</td><td>British multimedia postmodernist artist, noted for My Bed (1998).</td></tr>
 <tr id="row_197"><td>197</td><td>Contemporary Painters</td><td>Banksy</td><td>b.1973-4</td><td>Postmodernist graffiti stencil painter, street sculptor, installation artist.</td></tr>
 </table>
-				<span>Painter information courtesy of <a href="http://www.visual-arts-cork.com">Encyclopedia OF Art Education</a>.</span>
-				
-				<hr style="clear:left">
-
-				<table class="flex-vam"></table>
-				
-				<span>Art data courtesy of <a href="http://www.vam.ac.uk/api/">Victoria &amp; Albert Museum</a> ReST interface.</span>
+				<div class="small">Painter information courtesy of <a href="http://www.visual-arts-cork.com">Encyclopedia OF Art Education</a>.</div>
 			</div>
+<!---
+			<div class="section" style="position:relative">
+				<table class="flex-vam"></table>
+				<p class="small">Art data courtesy of <a href="http://www.vam.ac.uk/api/">Victoria &amp; Albert Museum</a> ReST interface.</p>
+			</div>
+--->
 
 <!---
 				<div id="wa">
@@ -246,15 +252,17 @@
 
 			<div id="tabs" class="section">
 				<ul>
-					<li><a href="##tabs-1">Javascript</a></li>
+					<!--- <li><a href="##tabs-1">Javascript</a></li> --->
 					<li><a href="##tabs-2">HTML</a></li>
 					<li><a href="##tabs-3">CSS</a></li>
-					<li><a href="##tabs-4">Static</a></li>
-					<li><a href="##tabs-5">Ajax</a></li>
+					<li><a href="##tabs-4">Flexigrid-S w/ HTML Table</a></li>
+					<li><a href="##tabs-5">Flexigrid-S w/ Remote JSON</a></li>
 				</ul>
-				<div id="tabs-1">
+				<!---
+<div id="tabs-1">
 <pre class="brush: js; ruler:false; toolbar:true;">#request.js#</pre>
 				</div>
+--->
 				<div id="tabs-2">
 <pre class="brush: html; ruler:false; toolbar:true;">#HTMLEditFormat( request.htm )#</pre>
 				</div>
@@ -262,10 +270,10 @@
 <pre class="brush: css; ruler:false; toolbar:true;">#HTMLEditFormat( request.css )#</pre>
 				</div>
 				<div id="tabs-4">
-<pre class="brush: coldfusion; ruler:false; toolbar:true;">#HTMLEditFormat( request.painters )#</pre>
+<pre class="brush: js; ruler:false; toolbar:true;">#HTMLEditFormat( request.painters )#</pre>
 				</div>
 				<div id="tabs-5">
-<pre class="brush: xml; ruler:false; toolbar:true;">#HTMLEditFormat( request.vam )#</pre>
+<pre class="brush: js; ruler:false; toolbar:true;">#HTMLEditFormat( request.vam )#</pre>
 				</div>
 			</div>
 
@@ -273,9 +281,9 @@
 
    		<footer>
 			<p>
-				<a href="https://github.com/hhrogersii/argleBargle/tree/master/flexigrid"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a> &larr;
-				<a href="#request.url.base#">Flexigrid</a> &larr; 
-				<a href="#request.url.root#/lab/">arg!eBarg!e</a> &larr; 
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/flexigrid-s/"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" /></a> &larr;
+				<a href="#request.url.base#">Flexigrid-S</a> &larr; 
+				<a href="#request.url.root#/lab/">&gt;arg&iexcl;eBarg!e</a> &larr; 
 				<a href="#request.url.root#/">hhROGERSii</a>
 			</p>
 		</footer>
@@ -285,9 +293,8 @@
 
 <cffunction name="PageFooter" access="public" returntype="void">
 	<script src="/js/jquery-ui-1.8.16.custom/js/jquery-ui-1.8.16.custom.min.js"></script>
-	<script src="flexigrid-min.js"></script>
+	<script src="flexigrid.js"></script>
 	<script src="/js/jquery.xml2json.js"></script>
-	<script src="fg-vam.js"></script>
 	<script src="fg-painters.js"></script>
 	<script>
 		$('#tabs').tabs();
@@ -300,6 +307,4 @@
 			}
 		);
 	</script>
-	<script>$(window).load(main);</script>
-
 </cffunction>

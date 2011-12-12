@@ -1,19 +1,56 @@
 <!doctype html>
 <html>
+
 <head>
-	<title>Pop-up Calendar</title>
+	<meta charset="utf-8" />
+	<title>&gt;arg&iexcl;eBarg!e: Pop-up Calendar</title>
+	<meta name="description" content="&hellip;a multi-modal fast date selector." />
+	<meta name="author" content="Henry Rogers" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+	<link rel="stylesheet" href="Calendar.css" type="text/css">
 </head>
-<body>
-<h1>Pop-up Calendar</h1>
-<form method="get">
-	<i>Date:</i>
-	<input type="text" name="date_field" id="date_field" size="20" value="" class="inputtext" /> &nbsp;
-	<a href="#" id="link_cal_date_field" class="link_cal">Calendar</a> &nbsp;
-	<iframe src="" name="calendarFrame" id="calendarFrame" width="172" height="172" frameborder="0" style="visibility:hidden;position:absolute;border:1px solid black;"></iframe>
-</form>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
-<script src="Calendar.js"></script>
-<script>$(window).load(main);</script
+
+<body lang="en">
+
+    <article>
+
+        <header>
+        	<h2>Pop-up Calendar</h2>
+        	<p>&hellip;a multi-modal date selector.</p>
+        </header>
+
+		<section>
+
+			<form method="get">
+				<i>Date:</i>
+				<input type="text" name="date_field" id="date_field" size="20" value="" class="inputtext" /> &nbsp;
+				<a href="#" id="link_cal_date_field" class="link_cal">Calendar</a> &nbsp;
+				<iframe src="" name="calendarFrame" id="calendarFrame" width="172" height="172" frameborder="0" style="visibility:hidden;position:absolute;border:1px solid black;width:172px;height:172px"></iframe>
+			</form>
+
+		</section>
+
+   		<footer>
+			<p>
+				<a href="https://github.com/hhrogersii/argleBargle/tree/master/calendar"><img id="octodex" src="/img/octodex.png" width="24" height="24" alt="Git'er Done" class="githubicon" /></a> &larr; 
+				<a href="http://hhrogersii.loc:8080/lab/calendar/">Calendar</a> &larr;
+				<a href="http://hhrogersii.loc:8080/lab/">&gt;arg&iexcl;eBarg!e</a> &larr;
+				<a href="http://hhrogersii.loc:8080/">hhROGERSii</a>
+			</p>
+		</footer>
+
+    </article>
+
+	<!--Thank you jQuery -->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
+	<script src="Calendar.js"></script>
+	<script>$(window).load(main);</script>
+
 </body>
+
 </html>

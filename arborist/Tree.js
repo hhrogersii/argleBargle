@@ -171,8 +171,8 @@ function main ()
 	
 	resizeIframe();
 	
-	$('.wa-link').click( 
-		function(){ 
+	$('.tree a').click( 
+		function(){
 			$('#wa').show();
 			$('#info').css('visibility','hidden');
 		} 

@@ -21,9 +21,9 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>&gt;arg!eBarg!e: Pop-up Calendar</title>
+	<title>&gt;arg&iexcl;eBarg!e: Pop-up Calendar</title>
 	<meta name="description" content="&hellip;a multi-modal fast date selector." />
-	<meta name="author" content="Henry Harper Rogers II" />
+	<meta name="author" content="Henry Rogers" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
